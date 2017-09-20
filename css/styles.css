@@ -3,3 +3,9 @@ body
   background: #EEEEEE;
   color: #212121;
 }
+
+.content
+{
+  background: #FFF000;
+  width: 87vw; 
+}
