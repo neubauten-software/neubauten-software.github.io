@@ -2,7 +2,7 @@ alert("Hello!");
 
 var xhr = new XMLHttpRequest();
 
-function Load() {
+document.addEventListener("DOMContentLoaded", function () {
   xhr.onreadystatecange = function() {
     if (this.readyState == 4 && this.status == 200) {
       LoadPosts(this);
@@ -11,7 +11,7 @@ function Load() {
   
   xhr.open("GET", "channel/admin/posts.xml", true);
   xhr.send();
-}
+});
 
 function LoadPosts(xml) {
   var card = document.createElement("div");
