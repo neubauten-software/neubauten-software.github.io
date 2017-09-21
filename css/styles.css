@@ -9,3 +9,9 @@ body
   background: #FFF000;
   width: 87vw; 
 }
+
+.toolbar
+{
+  margin: 0;
+  padding: 1em;
+}
