@@ -10,3 +10,7 @@
   </div>
 </body>
 </html>
+
+<?php
+  echo "Hello, World!";
+?>
