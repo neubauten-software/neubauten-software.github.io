@@ -10,7 +10,9 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   
   xhr.open("GET", "channel/admin/posts.xml", true);
+  xhr.readyState = 4;
   xhr.send();
+  xhr.status = 200;
 });
 
 function LoadPosts(xml) {
