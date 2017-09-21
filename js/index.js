@@ -1,3 +1,5 @@
+alert("Hello!");
+
 var xhr = new XMLHttpRequest();
 
 function Load() {
