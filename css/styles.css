@@ -14,6 +14,7 @@ body
 
 .card-view h1, .card-view p
 {
+  font-family: Arial;
   margin: 0;
   padding: 0;
 }
