@@ -27,6 +27,6 @@ function LoadPosts(xml) {
       + "</p><a href=\"" + post[i].getElementsByTagName("link")[0].childNode[0].getAttribute("to")
       + "\">" + post[i].getElementsByTagName("link")[0].childNode[0].getAttribute("title") + "</a>";
     
-    document.body.appendChild(card);
+    document.getElementById("content").appendChild(card);
   }
 }
