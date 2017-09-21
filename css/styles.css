@@ -12,11 +12,16 @@ body
   width: 75%;
 }
 
-.card-view h1, .card-view p
+.card-view h1
 {
   font-family: Arial;
   margin: 0;
   padding: 0;
+}
+
+.card-view
+{
+  padding: 1% 0;
 }
 
 .toolbar
