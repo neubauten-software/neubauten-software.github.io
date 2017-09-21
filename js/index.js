@@ -7,5 +7,5 @@ function Load() {
   
   xhr.onreadystatecange = function() {
     alert(xhr.responseText);
-  });
+  };
 }
