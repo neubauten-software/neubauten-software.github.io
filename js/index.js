@@ -10,9 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   };
   
   xhr.open("GET", "channel/admin/posts.xml", true);
-  xhr.readyState = 4;
+  xhr.setRequestHeader("Allow-Control-Allow-Origin", "https://neubauten-software.github.io/");
   xhr.send();
-  xhr.status = 200;
 });
 
 function LoadPosts(xml) {
