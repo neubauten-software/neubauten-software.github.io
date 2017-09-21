@@ -12,6 +12,12 @@ body
   width: 75%;
 }
 
+.card-view h1, .card-view p
+{
+  margin: 0;
+  padding: 0;
+}
+
 .toolbar
 {
   margin: 0;
