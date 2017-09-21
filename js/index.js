@@ -6,6 +6,6 @@ function Load() {
   xhr.send();
   
   xhr.onreadystatecange = function() {
-    alert(xhr.responseText);
+    console.log(xhr.responseText);
   };
 }
