@@ -9,8 +9,4 @@
     <div class="card-view">Title Image Descrription</div>
   </div>
 </body>
-</html>
-
-<?php
-  echo "Hello, World!";
-?>
+</html
