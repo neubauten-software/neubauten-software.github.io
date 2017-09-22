@@ -28,6 +28,6 @@ function LoadPosts(xml) {
       + "\">" + post[i].getElementsByTagName("link")[0].childNodes[0].getAttribute("title") + "</a>";
   }
   
-  card.innerHTML += "</div>";
+  card += "</div>";
   document.getElementById("content").innerHTML += card;
 }
