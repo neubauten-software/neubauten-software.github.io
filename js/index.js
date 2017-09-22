@@ -20,7 +20,7 @@ function LoadPosts(xml) {
   var post = doc.getElementsByTagName("post");
   
   for (var i = 0; i < post.length; i++) {
-    card.innerHTML += "<img src\""
+    card += "<img src\""
       + post[i].getElementsByTagName("cover")[0].childNodes[0].nodeValue
       + "\"/><br/><h1>" + post[i].getElementsByTagName("title")[0].childNodes[0].nodeValue
       + "</h1><p>" + post[i].getElementsByTagName("description")[0].childNodes[0].nodeValue
