@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function LoadPosts(xml) {
   var card = "<div class=\"card-view\">";
-  var doc = xml.responseXML();
+  var doc = xml.responseXML;
   var post = doc.getElementsByTagName("post");
   
   for (var i = 0; i < post.length; i++) {
