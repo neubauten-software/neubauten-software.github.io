@@ -29,5 +29,6 @@ function LoadPosts(xml) {
   }
   
   card += "</div>";
-  document.getElementById("content").innerHTML += card;
+  
+  console.log(card);
 }
