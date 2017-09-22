@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
   
-  xhr.open("GET", "channel/admin/posts.xml", true);
+  xhr.open("GET", "../channel/admin/posts.xml", true);
   xhr.setRequestHeader("Allow-Control-Allow-Origin", "https://neubauten-software.github.io/");
   xhr.send();
 });
@@ -25,10 +25,10 @@ function LoadPosts(xml) {
   for (var i = 0; i < post.length; i++) {
     card.innerHTML = "<img src\""
       + post[i].getElementsByTagName("cover")[0].childNode[0].nodeValue
-      + "\"/><br/><h1>" + post[i].getElementsByTagName("title")[0].childNode[0].nodeValue
-      + "</h1><p>" + post[i].getElementsByTagName("description")[0].childNode[0].nodeValue
-      + "</p><a href=\"" + post[i].getElementsByTagName("link")[0].childNode[0].getAttribute("to")
-      + "\">" + post[i].getElementsByTagName("link")[0].childNode[0].getAttribute("title") + "</a>";
+      + "\"/><br/><h1>" + post[i].getElementsByTagName("title")[0].childNodes[0].nodeValue
+      + "</h1><p>" + post[i].getElementsByTagName("description")[0].childNodes[0].nodeValue
+      + "</p><a href=\"" + post[i].getElementsByTagName("link")[0].childNodes[0].getAttribute("to")
+      + "\">" + post[i].getElementsByTagName("link")[0].childNodes[0].getAttribute("title") + "</a>";
     
     document.getElementById("content").appendChild(card);
   }
