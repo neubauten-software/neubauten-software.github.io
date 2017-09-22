@@ -1,4 +1,4 @@
-alert("Hello!");
+console.log("Hello!");
 
 var xhr = new XMLHttpRequest();
 
