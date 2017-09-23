@@ -57,6 +57,7 @@ body
 .menu li:hover
 {
   background: #FF9800;
+  transition: background 0.5s;
 }
 
 .menu li:hover a
