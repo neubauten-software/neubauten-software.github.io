@@ -33,27 +33,20 @@ body
   display: inline-block;
 }
 
-.menu li:after
-{
-  color: rgba(255, 255, 255, 0.25);
-  content: "|";
-  display: inline-block;
-  vertical-align: top;
-}
-
-.menu li:last-child:affter
-{
-  content: none;
-}
-
 .menu li a
 {
+  color: #FF9800;
   display: inline-block;
   font-size: 1em;
   letter-spacing: 1%;
   margin: 5%;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.menu li:hover
+{
+  border: 2px solid #FF9800;
 }
 
 #disqus_thread
