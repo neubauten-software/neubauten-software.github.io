@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         + "<h1>" + name.childNodes[0].nodeValue + "</h1>"
         + "<h5>" + id.childNodes[0].nodeValue + "</h5>"
         + "<p>" + description.childNodes[0].nodeValue + "</p>"
-        + "<a href=\"" + vk_link.getAttribute("title") + "\">" + vk_link.getAttribute("to") + "</a>;
+        + "<a href=\"" + vk_link.getAttribute("title") + "\">" + vk_link.getAttribute("to") + "</a>";
     }
   };
   
