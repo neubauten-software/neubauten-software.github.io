@@ -14,7 +14,6 @@ body
 
 .card-view h1
 {
-  font-family: Arial;
   margin: 0;
   padding: 0;
 }
@@ -27,6 +26,11 @@ body
 .footer
 {
   background: #424242;
+}
+
+.footer div
+{
+  float: left;
 }
 
 .toolbar
