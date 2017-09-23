@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var doc = this.responseXML;
       var logo = doc.getElementsByTagName("logo")[0],
           cover = doc.getElementsByTagName("cover")[0],
-          name = doc.geteElementsByTagName("name")[0],
+          name = doc.getElementsByTagName("name")[0],
           id = doc.getElementsByTagName("id")[0],
           description = doc.getElementsByTagName("description")[0],
           vk_link = doc.getElementsByTagName("vk_link")[0];
