@@ -59,7 +59,8 @@ body
 
 .menu li:hover
 {
-  border: 2px solid #FF9800;
+  background: #FF9800;
+  color: #FFFFFF;
 }
 
 #disqus_thread
