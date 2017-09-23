@@ -14,3 +14,8 @@ body
   padding: 1%;
   width: 73%;
 }
+
+#disqus_thread
+{
+  bottom: 0;
+}
