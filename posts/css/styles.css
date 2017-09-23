@@ -21,4 +21,5 @@ body
 {
   background: #FFFFFF;
   bottom: 0;
+  position: absolute;
 }
