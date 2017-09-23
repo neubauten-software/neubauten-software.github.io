@@ -37,7 +37,7 @@ body
 .menu li
 {
   display: inline-block;
-  padding: 2.5%;
+  padding: 1%;
 }
 
 .menu li:after
@@ -63,7 +63,7 @@ body
 .menu li:hover
 {
   background: #FF9800;
-  transition: background 0.5s;
+  transition: background 0.25s;
 }
 
 .menu li:hover a
