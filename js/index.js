@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         + "<p>" + description.childNodes[0].nodeValue + "</p>"
         + "<a href=\"" + vk_link.getAttribute("title") + "\">" + vk_link.getAttribute("to") + "</a>";
       
-      document.getElementByd("sidebar").innerHTML = sidebar_content;
+      document.getElementById("sidebar").innerHTML = sidebar_content;
     }
   };
   
