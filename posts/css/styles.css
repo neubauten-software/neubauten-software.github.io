@@ -21,7 +21,39 @@ body
 
 .menu
 {
-  background: #FF9800;
+  background: #FFFFFF;
+  border-bottom: 1px solid #FF9800;
+  list-style: none;
+  padding: 1% auto;
+  text-align: center;
+}
+
+.menu li
+{
+  display: inline-block;
+}
+
+.menu li:after
+{
+  color: rgba(255, 255, 255, 0.25);
+  content: "|";
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu li:last-child:affter
+{
+  content: none;
+}
+
+.menu li a
+{
+  display: inline-block;
+  font-size: 1em;
+  letter-spacing: 1%;
+  margin: 5%;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 #disqus_thread
