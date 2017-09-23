@@ -8,11 +8,10 @@ body
 .content
 {
   background: #FFFFFF;
-  border: 1px solid transparent;
-  border-bottom-radius: 8px;
-  border-left-radius: 8px;
-  border-right-radius: 8px;
-  border-top-radius: 8px;
+  border-bottom-left-radius: 8%;
+  border-bottom-rigtht-radius: 8%;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
   box-shadow: 0 16px 64px rgba(0, 0, 0, 0.50);
   display: block;
   margin: 2% 6.25%;
