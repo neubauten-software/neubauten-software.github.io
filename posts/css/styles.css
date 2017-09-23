@@ -36,20 +36,12 @@ body
 
 .menu li:after
 {
-  color: #FF9800;
-  content: "|";
-  display: inline-block;
-  vertical-align: top;
-  
-  -ms-transform: scaleY(2%);
-  -moz-transform: scaleY(2%);
-  -o-transform: scaleY(2%);
-  -webkit-transform: scaleY(2%);
+  border-right: 1px solid #FF9800;
 }
 
 .menu li:last-child:after
 {
-  content: none;
+ border-right: none;
 }
 
 .menu li a
