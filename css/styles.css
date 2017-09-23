@@ -42,6 +42,7 @@ body
 .toolbar
 {
   background: #03A4F9;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.50);
   margin: 0;
   padding: 1em;
 }
