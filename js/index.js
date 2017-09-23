@@ -1,6 +1,7 @@
 console.log("Hello!");
 
-var xhr, xhr_2 = new XMLHttpRequest();
+  var xhr = new XMLHttpRequest(),
+      xhr_2 = new XMLHttpRequest();
 
 document.addEventListener("DOMContentLoaded", function () {
   xhr.onload = function() {
