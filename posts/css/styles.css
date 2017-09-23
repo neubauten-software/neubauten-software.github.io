@@ -8,7 +8,7 @@ body
 .content
 {
   background: #FFFFFF;
-  box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.50);
+  box-shadow: 0 16px 16px rgba(0, 0, 0, 0.50);
   margin: 1% 6.25%;
   padding: 1%;
   width: 85.5%;
