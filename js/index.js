@@ -50,6 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
         + "<h5>" + id.childNodes[0].nodeValue + "</h5>"
         + "<p>" + description.childNodes[0].nodeValue + "</p>"
         + "<a href=\"" + vk_link.getAttribute("title") + "\">" + vk_link.getAttribute("to") + "</a>";
+      
+      document.getElementByd("sidebar").innerHTML = sidebar_content;
     }
   };
   
