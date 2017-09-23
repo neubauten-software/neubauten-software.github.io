@@ -78,7 +78,7 @@ body
   left: 0;
   margin: 0;
   padding: 1%;
-  position: absolute;
+  position: static;
   right: 0;
 }
 
