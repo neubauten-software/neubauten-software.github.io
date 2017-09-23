@@ -24,6 +24,11 @@ body
   padding: 1% 0;
 }
 
+.footer
+{
+  background: #424242;
+}
+
 .toolbar
 {
   margin: 0;
