@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       card += "</div>";
 
-      alert(card);
+      document.getElementById("content").innerHTML += (card);
     }
   };
   
