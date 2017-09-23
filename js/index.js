@@ -30,5 +30,5 @@ function LoadPosts(xml) {
   
   card += "</div>";
   
-  console.log(card);
+  alert(card);
 }
