@@ -44,8 +44,8 @@ document.addEventListener("DOMContentLoaded", function () {
           description = doc.getElementsByTagName("description")[0],
           vk_link = doc.getElementsByTagName("vk_link")[0];
       
-      sidebar_content = "<img src=\"" + cover.childNodes.nodeValue + "\"/>"
-        + "<img src=\"" + logo.childNoeds[0].nodeValue + "\"/>"
+      sidebar_content = "<img src=\"" + cover.childNodes[0].nodeValue + "\"/>"
+        + "<img src=\"" + logo.childNodes[0].nodeValue + "\"/>"
         + "<h1>" + name.childNodes[0].nodeValue + "</h1>"
         + "<h5>" + id.childNodes[0].nodeValue + "</h5>"
         + "<p>" + description.childNodes[0].nodeValue + "</p>"
