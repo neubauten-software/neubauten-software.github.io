@@ -39,9 +39,8 @@ body
   padding 1%;
 }
 
-.toolbar
+.menu
 {
-  background: #03A4F9;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
   margin: 0;
   padding: 1em;
