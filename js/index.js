@@ -3,14 +3,14 @@ console.log("Hello!");
 var xhr = new XMLHttpRequest();
 
 document.addEventListener("DOMContentLoaded", function () {
-  xhr.onreadystatecange = function() {
+  xhr.onload = function() {
     if (this.readyState == 4 && this.status == 200) {
       LoadPosts(this);
     }
   };
   
-  xhr.open("GET", "channel/admin/posts.xml", true);
-  xhr.setRequestHeader("Allow-Control-Allow-Origin", "https://neubauten-software.github.io/");
+  xhr.open("GET", "channel/admin/posts.xml");
+  xhr.rersponseType = "document";
   xhr.send();
 });
 
