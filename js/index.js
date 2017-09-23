@@ -24,7 +24,7 @@ function LoadPosts(xml) {
       + post[i].getElementsByTagName("cover")[0].childNodes[0].nodeValue
       + "\"/><br/><h1>" + post[i].getElementsByTagName("title")[0].childNodes[0].nodeValue
       + "</h1><p>" + post[i].getElementsByTagName("description")[0].childNodes[0].nodeValue
-      + "</p><a href=\"" + post[i].getElementsByTagName("link")[0].childNodes[0].getAttribute("to")
+      + "</p><a href=\"" + post[i].getElementsByTagName("link")[0].childNodes[0].nodeValue
       + "\">" + post[i].getElementsByTagName("link")[0].childNodes[0].getAttribute("title") + "</a>";
   }
   
