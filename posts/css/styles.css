@@ -15,6 +15,11 @@ body
   width: 85.5%;
 }
 
+.menu
+{
+  background: #FF9800;
+}
+
 #disqus_thread
 {
   background: #FFFFFF;
