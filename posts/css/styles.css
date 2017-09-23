@@ -40,9 +40,14 @@ body
   content: "|";
   display: inline-block;
   vertical-align: top;
+  
+  -ms-transform: scaleY(2%);
+  -moz-transform: scaleY(2%);
+  -o-transform: scaleY(2%);
+  -webkit-transform: scaleY(2%);
 }
 
-.menu li:last-child:affter
+.menu li:last-child:after
 {
   content: none;
 }
