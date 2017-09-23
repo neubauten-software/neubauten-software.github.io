@@ -36,7 +36,7 @@ body
 
 .menu li:after
 {
-  color: rgba(255, 255, 255, 0.25);
+  color: #FF9800;
   content: "|";
   display: inline-block;
   vertical-align: top;
@@ -60,6 +60,10 @@ body
 .menu li:hover
 {
   background: #FF9800;
+}
+
+.menu li:hover a
+{
   color: #FFFFFF;
 }
 
