@@ -1,6 +1,6 @@
 console.log("Hello!");
 
-var xhr = new XMLHttpRequest();
+var xhr, xhr_2 = new XMLHttpRequest();
 
 document.addEventListener("DOMContentLoaded", function () {
   xhr.onload = function() {
@@ -31,8 +31,28 @@ document.addEventListener("DOMContentLoaded", function () {
   xhr.open("GET", "channel/admin/posts.xml");
   xhr.rersponseType = "document";
   xhr.send();
-});
-
-function LoadPosts(xml) {
   
-}
+  xhr_2.onload = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      var sidebar_content = "";
+      var doc = this.responseXML;
+      var logo = doc.getElementsByTagName("logo")[0],
+          cover = doc.getElementsByTagName("cover")[0],
+          name = doc.geteElementsByTagName("name")[0],
+          id = doc.getElementsByTagName("id")[0],
+          description = doc.getElementsByTagName("description")[0],
+          vk_link = doc.getElementsByTagName("vk_link")[0];
+      
+      sidebar_content = "<img src=\"" + cover.childNodes.nodeValue + "\"/>"
+        + "<img src=\"" + logo.childNoeds[0].nodeValue + "\"/>"
+        + "<h1>" + name.childNodes[0].nodeValue + "</h1>"
+        + "<h5>" + id.childNodes[0].nodeValue + "</h5>"
+        + "<p>" + description.childNodes[0].nodeValue + "</p>"
+        + "<a href=\"" + vk_link.getAttribute("title") + "\">" + vk_link.getAttribute("to") + "</a>;
+    }
+  };
+  
+  xhr_2.open("GET", "channel/admin/info.xml");
+  xhr_2.responseType = "document";
+  xhr_2.send();
+});
