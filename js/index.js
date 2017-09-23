@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
           + "</h1>"
           + "  <p>" + post[i].getElementsByTagName("description")[0].childNodes[0].nodeValue
           + "</p>"
-          + "  <a href=\"" + post[i].getElementsByTagName("link")[0].getAttribute("to")
+          + "  <a class=\"read-thread\" href=\"" + post[i].getElementsByTagName("link")[0].getAttribute("to")
           + "\">" + post[i].getElementsByTagName("link")[0].getAttribute("title") + "</a><br/>"
           + "  <font color=\"#949494\">" + post[i].getElementsByTagName("id")[0].childNodes[0].nodeValue + "</font>"
           + "</div>";
