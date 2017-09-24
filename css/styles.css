@@ -38,12 +38,13 @@ body
 .footer
 {
   background: #424242;
+  width: 100%;
 }
 
 .footer div
 {
   background: #424242;
-  float: left;
+  display: inline-block;
   padding 1%;
 }
 
@@ -97,5 +98,6 @@ body
 .read-thread
 {
   border: 1px solid #FF9800;
+  margin-bottom: 1%;
   padding: 1%;
 }
