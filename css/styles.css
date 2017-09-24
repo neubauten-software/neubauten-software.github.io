@@ -112,6 +112,14 @@ body
 .read-thread
 {
   border: 1px solid #FF9800;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
+  padding: 1%;
+}
+
+.read-thread:hoevr
+{
+  background: #FF9800;
+  border: 1px solid #FF9800;
+  margin-bottom: 2%;
   padding: 1%;
 }
