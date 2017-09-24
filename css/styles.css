@@ -116,10 +116,11 @@ body
   padding: 1%;
 }
 
-.read-thread:hoevr
+.read-thread:hover
 {
   background: #FF9800;
   border: 1px solid #FF9800;
+  color: #FFFFFF;
   margin-bottom: 2%;
   padding: 1%;
 }
