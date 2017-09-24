@@ -10,6 +10,7 @@ a
 
 body
 {
+  background: #EEEEEE;
   margin: 0;
   padding: 0;
 }
@@ -40,6 +41,7 @@ body
 
 .footer div
 {
+  background: #424242;
   float: left;
   padding 1%;
 }
