@@ -59,7 +59,7 @@ html
 {
   background: #424242;
   display: inline-block;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
