@@ -3,6 +3,18 @@
   font-family: "Roboto";
 }
 
+a
+{
+  color: #FF9800;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #000000;
+  transition: color: 0.25s;
+}
+
 body
 {
   background: #EEEEEE;
