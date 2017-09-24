@@ -123,4 +123,5 @@ body
   color: #FFFFFF;
   margin-bottom: 2%;
   padding: 1%;
+  transition: background 0.25s;
 }
