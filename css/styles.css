@@ -47,13 +47,12 @@ html
   bottom: 0;
   padding: 1%;
   position: static;
-  width: 100%;
+  width: 98%;
 }
 
 .footer a
 {
   color: #FFFFFF;
-  padding: 0.5%;
 }
 
 .footer div
