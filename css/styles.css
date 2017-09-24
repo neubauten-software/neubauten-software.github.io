@@ -59,6 +59,7 @@ html
 {
   background: #424242;
   display: inline-block;
+  top: 0;
 }
 
 .footer h3
