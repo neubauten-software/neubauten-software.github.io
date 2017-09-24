@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
           + "</p>"
           + "  <a class=\"read-thread\" href=\"" + post[i].getElementsByTagName("link")[0].getAttribute("to")
           + "\">" + post[i].getElementsByTagName("link")[0].getAttribute("title") + "</a><br/>"
-          + "  <font color=\"#949494\">" + post[i].getElementsByTagName("id")[0].childNodes[0].nodeValue + "</font>"
+          + "  <font color=\"#949494\"style=\"padding-top: 1%\">" + post[i].getElementsByTagName("id")[0].childNodes[0].nodeValue + "</font>"
           + "</div>";
       }
 
