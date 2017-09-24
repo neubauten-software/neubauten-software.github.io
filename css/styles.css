@@ -14,7 +14,11 @@ body
   background: #EEEEEE;
   margin: 0;
   padding: 0;
-  width: 100vw;
+}
+
+html
+{
+  width: 100%;
 }
 
 .card-view
