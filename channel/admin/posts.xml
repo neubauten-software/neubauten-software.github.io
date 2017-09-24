@@ -5,7 +5,7 @@
     <title>Обновление: Hello, World!</title>
     <description>
       Отображение текста &quot;Hello, World!&quot;
-      <br/>
+      &lt;br/&gt;
       Что ты думаешь на этот счёт?
     </description>
     <id>24.09.2017</id>
