@@ -9,6 +9,12 @@ a
   text-decoration: none;
 }
 
+a:hover
+{
+  color: #000000;
+  transition: color: 1s;
+}
+
 body
 {
   background: #EEEEEE;
