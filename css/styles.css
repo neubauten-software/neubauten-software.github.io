@@ -38,6 +38,7 @@ body
 .footer
 {
   background: #424242;
+  bottom: 0;
   position: static;
   width: 100%;
 }
