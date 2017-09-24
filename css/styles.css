@@ -39,6 +39,7 @@ body
 {
   background: #424242;
   bottom: 0;
+  padding: 1%;
   position: static;
   width: 100%;
 }
