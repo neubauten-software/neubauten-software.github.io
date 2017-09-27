@@ -12,21 +12,19 @@ body
 .menu
 {
   background: #555;
-  margin: 0;
-  padding: 0;
+  overflow: auto;
   width: 100%;
 }
 
 .menu a
 {
   color: white;
-  display: inline-block;
+  float: left;
   font-size: 36px;
-  margin: 0;
-  padding: 16px;
+  padding: 12px 0;
   text-align: center;
   transition: all 0.5s ease;
-  width: 74px;
+  width: 20%;
 }
 
 .menu a:hover
