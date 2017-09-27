@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <profile>
-  <info>
-    <fb_link href="neubauten_software">Мы на Facebook</fb_link>
-  </info>
+  <post>
+    <cover></cover>
+    <title>
+      
+    </title>
+    <description>
+      
+    </description>
+    <link title="" to=""/>
+    <id></id>
+  </post>
 </profile>
