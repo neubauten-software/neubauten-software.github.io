@@ -35,7 +35,7 @@ function findText(name, status) {
       for (var i = 0; i < result.length; i++) {
         if (result[i].match(eval(search)) != null) {
           warning = false;
-        } if (wrning == true) {
+        } if (warning == true) {
           alert("Совпадений не найдено!");
         }
       } for (var i = 0; i < result.length; i++) {
