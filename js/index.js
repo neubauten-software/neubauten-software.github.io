@@ -3,15 +3,7 @@ var input, locale_HTML, pr, result_arr, result_store;
 locale_HTML = document.body.innerHTML;
 
 document.addEventListener("DOMContentLoaded", function() {
-  
-});
-
-function closeDrawer() {
-  document.getElementById("drawer").style.width = 0;
-  document.getElementById("wrapper").style.marginLeft = 0;
-}
-
-function findText(name, status) {
+  function findText(name, status) {
   input = document.getElementById(name).value;
   
   if (input.length <= 3 && status == true) {
@@ -55,6 +47,12 @@ function findText(name, status) {
   } if (!status) {
     findTextBack();
   }
+}
+});
+
+function closeDrawer() {
+  document.getElementById("drawer").style.width = 0;
+  document.getElementById("wrapper").style.marginLeft = 0;
 }
 
 function openDrawer() {
