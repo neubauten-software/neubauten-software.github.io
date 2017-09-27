@@ -11,7 +11,7 @@ function closeDrawer() {
   document.getElementById("wrapper").style.marginLeft = 0;
 }
 
-function findText(name, sttus) {
+function findText(name, status) {
   input = document.getElementById(name).value;
   
   if (input.length <= 3 && status == true) {
