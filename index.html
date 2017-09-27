@@ -11,7 +11,9 @@
   <div class="drawer" id="drawer">
     <a href="javascript:closeDrawer();" id="close">&times;</a>
     <form>
-      <input type="text" placeholder="Поиск по сайту&hellip;"/>
+      <input id="search" placeholder="Поиск по сайту&hellip;" type="text"/><br/>
+      <input onclick="findText('search', false); return flse;" type="button" title="Отмена поиска"/>
+      <input onclick="findText('search', true); return false;" type="submit" title="Начать поиск"/>
     </form>
   </div>
   <div class="wrapper" id="wrapper">
