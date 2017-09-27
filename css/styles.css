@@ -28,6 +28,11 @@ body
   padding: 2px 16px;
 }
 
+.content
+{
+  background: #EEEEEE;
+}
+
 .menu
 {
   background: #555;
