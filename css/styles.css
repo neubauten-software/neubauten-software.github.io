@@ -97,9 +97,10 @@ body
 {
   background: transparent;
   border: none;
-  border-bottom: #4CAF50;
+  border-bottom: 1px solid #4CAF50;
   color: #FFFFFF;
   cursor: pointer;
+  outline: none;
   padding: 0.5px 2px;
 }
 
