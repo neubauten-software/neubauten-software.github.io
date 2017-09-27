@@ -92,9 +92,15 @@ body
 
 @media (max-width: 480px)
 {
-  .menu .a
+  .active
+  {
+    float: left;
+  }
+  
+  .menu a
   {
     font-size: 18px;
+    margin: 0 auto;
     padding: 6px 0;
     width: 25%;
   }
