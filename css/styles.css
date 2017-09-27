@@ -81,7 +81,7 @@ body
   border: 1px solid red;
   color: #FFFFFF;
   cursor: pointer;
-  padding: 0.5px 2px;
+  padding: 0.5em 2em;
 }
 
 #drawer form input[type=submit]
@@ -90,7 +90,7 @@ body
   border: 1px solid green;
   color: #FFFFFF;
   cursor: pointer;
-  padding: 0.5px 2px;
+  padding: 0.5em 2em;
 }
 
 #drawer form input[type=text]
@@ -101,7 +101,7 @@ body
   color: #FFFFFF;
   cursor: pointer;
   outline: none;
-  padding: 0.5px 2px;
+  padding: 0.5em 2em;
 }
 
 #drawer #close
