@@ -63,3 +63,8 @@ body
   width: 0;
   z-index: 1;
 }
+
+#wrapper
+{
+  transition: margin-left 0.5s;
+}
