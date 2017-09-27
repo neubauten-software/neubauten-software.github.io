@@ -70,10 +70,12 @@ body
 
 #drawer #close
 {
+  color: #FFFFFF;
   font-size: 36px;
   margin-left: 50px;
   position: absolute;
   right: 25px;
+  text-decoration: none;
   top: 0;
 }
 
