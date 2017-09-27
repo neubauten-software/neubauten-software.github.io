@@ -96,6 +96,7 @@ body
 #drawer form input[type=text]
 {
   background: transparent;
+  border: none;
   border-bottom: #4CAF50;
   color: #FFFFFF;
   cursor: pointer;
