@@ -1,9 +1,7 @@
 var input, locale_HTML, pr, result_arr, result_store;
 
-locale_HTML = document.body.innerHTML;
-
 document.addEventListener("DOMContentLoaded", function() {
-  
+  locale_HTML = document.body.innerHTML;
 });
 
 function closeDrawer() {
