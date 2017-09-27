@@ -39,7 +39,7 @@ function findText(name, status) {
           alert("Совпадений не найдено!");
         }
       } for (var i = 0; i < result.length; i++) {
-        result_arr[i] = result[i].replace(eval(search), "<span style=\"background: #4CAF50\">" + input + "</span>");
+        result_arr[i] = result[i].replace(eval(search), "<span style=\"background: #FFEB3B\">" + input + "</span>");
       } for (var i = 0; i < result.length; i++) {
         pr = pr.replace(result[i], result_arr[i]);
       }
