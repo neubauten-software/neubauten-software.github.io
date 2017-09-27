@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  closeDrawer();
-  openDrawer();
+  
 });
 
 function closeDrawer() {
