@@ -12,7 +12,7 @@
 .menu a
 {
   color: white;
-  display: block;
+  display: inline-block;
   font-size: 36px;
   padding: 16px;
   text-align: center;
