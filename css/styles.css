@@ -40,6 +40,7 @@ body
 {
   background: #555;
   overflow: auto;
+  margin: 0;
   width: 100%;
 }
 
