@@ -26,6 +26,12 @@ body
   padding: 2px 16px;
 }
 
+.content
+{
+  margin: auto;
+  width: 75%;
+}
+
 .menu
 {
   background: #555;
