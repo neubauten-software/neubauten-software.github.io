@@ -68,6 +68,15 @@ body
   z-index: 1;
 }
 
+#drawer #close
+{
+  font-size: 36px;
+  margin-left: 50px;
+  position: absolute;
+  right: 25px;
+  top: 0;
+}
+
 #wrapper
 {
   transition: margin-left 0.5s;
