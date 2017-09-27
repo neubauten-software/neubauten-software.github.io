@@ -66,12 +66,39 @@ body
   background: #000;
   height: 100%;
   left: 0;
+  margin: 6px;
   overflow-x: hidden;
   position: fixed;
   top: 0;
   transition: 0.5s;
   width: 0;
   z-index: 1;
+}
+
+#drawer form input[type=button]
+{
+  background: #F44336;
+  border: 1px solid red;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 0.5px 2px;
+}
+
+#drawer form input[type=submit]
+{
+  background: #4CAF50;
+  border: 1px solid green;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 0.5px 2px;
+}
+
+#drawer form input[type=text]
+{
+  border-bottom: #4CAF50;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding: 0.5px 2px;
 }
 
 #drawer #close
