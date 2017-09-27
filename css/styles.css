@@ -1,138 +1,20 @@
-*
+.menu
 {
-  font-family: "Roboto";
-}
-
-a
-{
-  color: #FF9800;
-  text-decoration: none;
-}
-
-a:hover
-{
-  color: #000000;
-  transition: color: 1s;
-}
-
-body
-{
-  background: #EEEEEE;
-  margin: 0;
-  padding: 0;
-}
-
-html
-{
+  background: #555;
   width: 100%;
 }
 
-.card-view
+.menu a
 {
-  background: #FFFFFF;
-  box-shadow: 0 16px 64px rgba(0, 0, 0, 0.50);
-  margin: 1% 11%;
-  padding: 1%;
-  width: 75%;
-}
-
-.card-view h1
-{
-  margin: 0;
-  padding: 0;
-}
-
-.card-view p
-{
-  padding: 1% 0;
-}
-
-.footer
-{
-  background: #424242;
-  bottom: 0;
-  padding: 1%;
-  position: static;
-  width: 98%;
-}
-
-.footer a
-{
-  color: #FFFFFF;
-}
-
-.footer div
-{
-  background: #424242;
-  display: inline-block;
-  text-align: left;
-}
-
-.footer h3
-{
-  color: #949494;
-}
-
-.menu
-{
-  background: #FFFFFF;
-  border-bottom: 1px solid #FF9800;
-  font-weight: 100;
-  list-style: none;
-  padding: 1.5% auto;
+  color: white;
+  display: block;
+  font-size: 36px;
+  padding: 16px;
   text-align: center;
+  transition: all 0.5s ease;
 }
 
-.menu li
-{
-  display: inline-block;
-  padding: 1.5%;
-}
-
-.menu li:after
-{
-  border-right: 1px solid #FF9800;
-}
-
-.menu li:last-child:after
-{
- border-right: none;
-}
-
-.menu li a
-{
-  color: #FF9800;
-  display: inline-block;
-  font-size: 1em;
-  letter-spacing: 1%;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.menu li:hover
+.menu a:hover
 {
   background: #FF9800;
-  transition: background 0.25s;
-}
-
-.menu li:hover a
-{
-  color: #FFFFFF;
-}
-
-.read-thread
-{
-  border: 1px solid #FF9800;
-  margin-bottom: 2%;
-  padding: 1%;
-}
-
-.read-thread:hover
-{
-  background: #FF9800;
-  border: 1px solid #FF9800;
-  color: #FFFFFF;
-  margin-bottom: 2%;
-  padding: 1%;
-  transition: background 0.25s;
 }
