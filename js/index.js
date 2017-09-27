@@ -45,7 +45,7 @@ function findText(name, sttus) {
     }
   }
   
-  findTextBack() {
+  function findTextBack() {
     document.body.innerHTML = locale_HTML;
   }
   
