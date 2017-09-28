@@ -12,11 +12,14 @@ function XMLParser(Url, Method) {
   
   xhr.onload = function() {
     var doc = this.responseXML,
-        parseable = doc.getElementsByTagName("text");
+        parseable = doc.getElementsByTagName("text"),
+        text = "";
     
     for (var i = 0; i < parseable.length; i++) {
-      console.log(parseable[i].childNodes.nodeValue);
+      text = parseable[i].childNodes.nodeValue;
     }
+    
+    console.log(text);
   };
   
   xhr.open(Method, Url, true);
