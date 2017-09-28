@@ -16,7 +16,7 @@ function XMLParser(Url, Method) {
         text = "";
     
     for (var i = 0; i < parseable.length; i++) {
-      text = parseable[i].childNodes.nodeValue;
+      text = parseable[i].innerHTML;
     }
     
     console.log(text);
