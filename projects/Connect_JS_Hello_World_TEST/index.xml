@@ -5,6 +5,7 @@
   <Design>
     <Button>
       <ClickEvent>alert("Hello, World!");</ClickEvent>
+      <Text>Hello, World!</Text>
     </Button>
   </Design>
   
