@@ -2,7 +2,7 @@
 <html xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:version="1.0">
     <xsl:template match="Application">
         <html>
-            <xsl:value-of select="Design"/>
+            <xsl:apply-templates select="Design"/>
         </html>
     </xsl:template>
     <xsl:for-each select="Button">
