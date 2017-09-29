@@ -3,9 +3,8 @@
 <Application xmlns:xlink="http://www.w3.org/1999/xlink">
   
   <Design>
-    <Button>
+    <Button id="Btn">
       <ClickEvent>alert("Hello, World!");</ClickEvent>
-      <Id>Btn</Id>
       <Text>Hello, World!</Text>
     </Button>
   </Design>
