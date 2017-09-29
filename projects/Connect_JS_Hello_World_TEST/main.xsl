@@ -5,14 +5,12 @@
             <xsl:value-of select="Design"/>
         </html>
     </xsl:template>
-    <xsl:template match="Design">
-        <xsl:for-each select="Button">
-            <button>
-                <xsl:attribute name="onclick">
-                    <xsl:value-of select="ClickEvent"/>
-                </xsl:attribute>
-                <xsl:value-of select="Text"/>
-            </button>
-        </xsl:for-each>
-    </xsl:template>
+    <xsl:for-each select="Button">
+        <button>
+            <xsl:attribute name="onclick">
+                <xsl:value-of select="ClickEvent"/>
+            </xsl:attribute>
+            <xsl:value-of select="Text"/>
+        </button>
+    </xsl:for-each>
 </xsl:stylesheet>
