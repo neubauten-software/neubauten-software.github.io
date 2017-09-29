@@ -2,6 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <Application xmlns:xlink="http://www.w3.org/1999/xlink">
   
-  <Button>Hello, World!</Button>
+  <Button>
+    <GoTo>hello</GoTo>
+  </Button>
   
 </Application>
