@@ -3,7 +3,7 @@
 <body>
     <xsl:for-each select="Button">
         <button><xsl:value-of name="Button"/></button>
-    </xsl>
+    </xsl:for-each>
     <script><xsl:value-of xsl:select="Application/JavaScript"/></script>
 </body>
 </html>
