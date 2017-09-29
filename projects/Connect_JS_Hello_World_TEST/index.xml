@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="application/xml" href="styles/main.xsl"?>
-<Application>
+<Application xmlns:xlink="http://www.w3.org/1999/xlink">
   
   <Button id="1">Hello, World!</Button>
   
-  <JavaScript>
+  <JavaScript xlink:type="simple" xlink:href="styles/main.xsl" xlink:show="embed">
     var button = document.getElementById("1");
     
     button.addEventListener("click", function() {
