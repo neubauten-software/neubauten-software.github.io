@@ -8,6 +8,7 @@
         <xsl:attribute name="title">
             <xsl:value-of select="Button"/>
         </xsl:attribute>
+        <xsl:value-of select="Button"/>
     </a>
 </body>
 </html>
