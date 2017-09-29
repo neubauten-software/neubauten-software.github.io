@@ -7,7 +7,7 @@
     </xsl:template>
     <xsl:template match="Application">
         <body>
-            <xsl:value-of select="Application"/>
+            <xsl:value-of select="Design"/>
         </body>
     </xsl:template>
 </xsl:stylesheet>
