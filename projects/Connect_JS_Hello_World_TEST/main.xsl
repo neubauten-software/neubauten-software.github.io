@@ -3,7 +3,7 @@
 <body>
     <a target="_blank">
         <xsl:attribute name="href">
-            <xsl:value-of select="Button/@GoTo"/>.xml
+            <xsl:value-of select="Button/@GoTo"/>
         </xsl:attribute>
         <xsl:attribute name="title">
             <xsl:value-of select="Button"/>
