@@ -10,4 +10,4 @@
             <xsl:value-of select="Application"/>
         </body>
     </xsl:template>
-</xsl>
+</xsl:stylesheet>
