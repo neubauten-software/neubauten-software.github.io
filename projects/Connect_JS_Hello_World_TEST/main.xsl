@@ -8,9 +8,9 @@
     <xsl:template match="Button">
         <button>
             <xsl:attribute name="onclick">
-                <xsl:value-of select="ClickEvent"/>
+                <xsl:value-of select="Button/ClickEvent"/>
             </xsl:attribute>
-            <xsl:value-of select="Text"/>
+            <xsl:value-of select="Button"/>
         </button>
     </xsl:template>
 </html>
