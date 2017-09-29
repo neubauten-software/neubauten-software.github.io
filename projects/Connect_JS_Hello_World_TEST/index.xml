@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xml" href="styles/main.xsl"?>
+<Application>
+  
+  <Button id="1">Hello, World!</Button>
+  
+  <JavaScript>
+    var button = document.getElementById("1");
+    
+    button.addEventListener("click", function() {
+      alert(1);
+    });
+  </JavaScript>
+  
+</Appliication>
