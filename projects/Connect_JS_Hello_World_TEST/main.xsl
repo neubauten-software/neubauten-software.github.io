@@ -10,4 +10,9 @@
             <xsl:value-of select="Design"/>
         </body>
     </xsl:template>
+    <xsl:template match="Design">
+        <xsl:for-each select="Button">
+            <button><xsl:value-of select="Text"/></button>
+        </xsl:for-each>
+    </xsl:template>
 </xsl:stylesheet>
