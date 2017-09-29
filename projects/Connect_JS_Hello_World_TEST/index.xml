@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="styles/main.xsl"?>
+<?xml-stylesheet type="text/xsl" href="main.xsl"?>
 <Application xmlns:xlink="http://www.w3.org/1999/xlink">
   
   <Button id="1">Hello, World!</Button>
