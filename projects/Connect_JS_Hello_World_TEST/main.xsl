@@ -3,9 +3,9 @@
 <body>
     <button>
         <xsl:attribute name="id">
-            <xsl:value-of select="Button/Id"/>
+            <xsl:value-of select="Button/@Id"/>
         </xsl:attribute>
-        <xsl:value-of select="Button"/>
+        <xsl:value-of select="Button/Text"/>
     </button>
 </body>
 </html>
