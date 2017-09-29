@@ -4,7 +4,7 @@
   
   <Button id="1">Hello, World!</Button>
   
-  <JavaScript xlink:type="simple" xlink:href="styles/main.xsl" xlink:show="embed">
+  <JavaScript>
     var button = document.getElementById("1");
     
     button.addEventListener("click", function() {
