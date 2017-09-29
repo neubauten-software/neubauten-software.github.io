@@ -2,11 +2,6 @@
 <?xml-stylesheet type="application/xml" href="main.xsl"?>
 <Application xmlns:xlink="http://www.w3.org/1999/xlink">
   
-  <Design>
-    <Button id="Btn">
-      <ClickEvent>alert("Hello, World!");</ClickEvent>
-      <Text>Hello, World!</Text>
-    </Button>
-  </Design>
+  <Button id="Btn">Hello, World!</Button>
   
 </Application>
