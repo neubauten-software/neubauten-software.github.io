@@ -13,6 +13,7 @@ body
 .drawer
 {
   position: absolute;
+  width: 0;
 }
 
 .menu
