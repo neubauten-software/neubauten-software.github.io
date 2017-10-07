@@ -10,6 +10,11 @@ body
   padding: 0;
 }
 
+.drawer
+{
+  position: absolute;
+}
+
 .menu
 {
   background: #3F51B5;
