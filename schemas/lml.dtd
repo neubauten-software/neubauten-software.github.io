@@ -1,7 +1,11 @@
 <!DOCTYPE lml [
-	<!ELEMENT CODE - - %Script; -- Script Parser -->
-	<!ATTLIST CODE
-		Type    %ContentType; #REQUIRED -- Type Of Script --
-		Src     %URI;         #IMPLIED  -- Link Of Script --
+	<!ELEMENT SCRIPT - - %Script;          -- script statements -->
+	<!ATTLIST SCRIPT
+		charset     %Charset;      #IMPLIED  -- char encoding of linked resource --
+		type        %ContentType;  #REQUIRED -- content type of script language --
+		src         %URI;          #IMPLIED  -- URI for an external script --
+		defer       (defer)        #IMPLIED  -- UA may defer execution of script --
+		event       CDATA          #IMPLIED  -- reserved for possible future use --
+		for         %URI;          #IMPLIED  -- reserved for possible future use --
 	>
 ]>
