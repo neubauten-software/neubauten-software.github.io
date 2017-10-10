@@ -1,5 +1,5 @@
 <!DOCTYPE lml [
-	<!ELEMENT CODE - - %Script -- Script Parser -->
+	<!ELEMENT CODE - - %Script; -- Script Parser -->
 	<!ATTLIST CODE
 		Type    %ContentType; #REQUIRED -- Type Of Script --
 		Src     %URI;         #IMPLIED  -- Link Of Script --
