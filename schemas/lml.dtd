@@ -1,4 +1,5 @@
 <!DOCTYPE lml [
+	<!ENTITY % Script "CDATA"              -- script text       -->
 	<!ELEMENT SCRIPT - - %Script;          -- script statements -->
 	<!ATTLIST SCRIPT
 		charset     %Charset;      #IMPLIED  -- char encoding of linked resource --
