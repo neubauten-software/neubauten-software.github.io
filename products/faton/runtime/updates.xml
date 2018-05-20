@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
 	<app appid="pafckepkfhikpfaahjbhpgkolbhkemen">
-		<updatecheck codebase="https://sergbull.github.io/neus-software/products/faton/runtime/faton_runtime.v0.1.0.crx" version="2.0"/>
+		<updatecheck codebase="https://neubauten-software.github.io/products/faton/runtime/faton_runtime.v0.1.0.crx" version="2.0"/>
 	</app>
 </gupdate>
